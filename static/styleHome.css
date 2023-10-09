@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(228, 236, 86, 0.7), rgba(51, 51, 51, 0.7)), url('tu-imagen-de-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header #cerrarSesion {
+    margin: 10px 10px 0 0;
+    text-align: end;
+    color: red;
+}
+
+header #side-navbar {
+    margin: 10px 0 0 10px;
+    text-align: end;
+    color: black;
+    cursor: pointer;
+}
+
+header #cerrarSesion:hover {
+    filter: grayscale(80%);
+    transform: scale(1.1, 1.1);
+}
+
+header #cerrarSesion span {
+    font-size: 2.2rem;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .item {
+    width: 100%; /* Ajusta el ancho para que ocupe todo el contenedor padre */
+    max-width: 400px; /* Establece un ancho máximo para evitar que el contenido se expanda demasiado en pantallas grandes */
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(216, 212, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin: 10px; /* Añade un espacio entre elementos */
+}
+
+.home .item:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.9);
+}

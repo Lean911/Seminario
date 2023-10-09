@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(228, 236, 86, 0.7), rgba(51, 51, 51, 0.7)), url('tu-imagen-de-fondo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el cuerpo */
+    background-position: center; /* Centra la imagen de fondo */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+header #cerrarSesion{
+    margin: 10px 10px 0 0;
+    text-align: end;
+    color: red;
+}
+
+header #cerrarSesion:hover{
+    filter: grayscale(80%);
+    transform:scale(1.1, 1.1);
+}
+
+header #cerrarSesion span{
+    font-size: 2.2rem;
+}
