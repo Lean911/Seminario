@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, rgba(228, 236, 86, 0.7), rgba(51, 51, 51, 0.7)), url('tu-imagen-de-fondo.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir todo el cuerpo */
-    background-position: center; /* Centra la imagen de fondo */
-    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
 }
 
 header{
